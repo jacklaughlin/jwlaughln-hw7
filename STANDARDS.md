@@ -26,9 +26,7 @@ attributes; no `<style>` tags in any HTML file
 │ └── headshot.jpg
 </pre>
 **Framework:**
-- [Delete one of the following options:]
 - No framework — vanilla CSS only
-- Bootstrap 5.3 loaded via CDN in the `<head>` of `index.html`
 - Tailwind CSS
 **Architecture:**
 - Static site — no JavaScript, no server-side code, no database, no back-end
