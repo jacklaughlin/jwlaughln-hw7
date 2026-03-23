@@ -7,10 +7,54 @@ This project is a personal professional landing page for Jack Laughlin, a Busine
 ---
 
 ## 2. Technical Standards
-(KEEP THIS SECTION EXACTLY AS YOUR TEMPLATE — DO NOT CHANGE)
-
+These rules apply to every file in this project without exception.
+**Languages and versions:**
+- HTML5 — use semantic elements throughout: `<header>`, `<main>`, `<section>`,
+`<article>`, `<footer>`, `<nav>`
+- CSS3 — all styles must be written in `css/stylesheet.css`; no inline `style=""`
+attributes; no `<style>` tags in any HTML file
+- HTML5 and CSS3 code must pass validation
+**Folder structure:**
+<pre>
+/your-website-project (Root Folder)
+├── index.html
+├── /css
+│ └── stylesheet.css
+├── /js
+│ └── scripts.js
+├── /images
+│ └── headshot.jpg
+</pre>
+**Framework:**
+- [Delete one of the following options:]
+- No framework — vanilla CSS only
+- Bootstrap 5.3 loaded via CDN in the `<head>` of `index.html`
+- Tailwind CSS
+**Architecture:**
+- Static site — no JavaScript, no server-side code, no database, no back-end
+- Single `index.html` file in the project root
+- External stylesheet: `stylesheet.css` in the css folder and referenced by
+relative path
+- All images stored in the `images/` subfolder and referenced by relative path
+(e.g., `src="images/photo.jpg"`) — never link to external image URLs
+- Do not link to or embed my resume anywhere on the site
+**Responsiveness:**
+- Fully responsive at all screen widths from 320px and wider
+- No horizontal scrolling on any viewport
+**Accessibility — WCAG 2.2 Level AA (non-negotiable):**
+- All `<img>` elements must have a descriptive `alt` attribute
+- Color contrast ratio: minimum 4.5:1 for normal text, 3:1 for large text
+- Heading hierarchy must be logical: `<h1>` → `<h2>` → `<h3>`, no levels skipped
+- All link text must be descriptive — no "click here", "read more", or bare URLs
+- Page `<title>` element must be descriptive (not "Untitled" or "index")
+- All interactive elements (links, buttons) must be keyboard navigable
+**Compatibility:**
+- Must render correctly on Chrome, Safari, and Firefox; must be mobile-responsive
+(works on screens 375px and wider)
+## **Security:**
+- Links to external sites should open in a new tab (`target="_blank"` with
+`rel="noopener noreferrer"`)
 ---
-
 ## 3. Design Standards
 
 **Color palette:**
